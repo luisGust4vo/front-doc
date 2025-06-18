@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 export default function Registration() {
   return (
     <div>
-      <PageBreadcrumb pageTitle="From Elements" />
-      <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
+      <PageBreadcrumb pageTitle="Cadastro de clientes" />
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-1">
         <div className="space-y-6">
           <DefaultInputs />
         </div>
