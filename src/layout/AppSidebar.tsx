@@ -42,7 +42,11 @@ const navItems: NavItem[] = [
     name: "User Profile",
     path: "/profile",
   },
-
+  {
+    name: "Usuarios",
+    icon: <ListIcon />,
+    subItems: [{ name: "Criar novo usuario", path: "/registration-user", pro: false }],
+  },
   {
     name: "Forms",
     icon: <ListIcon />,
